@@ -1,0 +1,441 @@
+body{
+    margin:0;
+    padding:0;
+}
+/* image css for all images */
+
+p,
+span {
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+button {
+    outline: none;
+}
+button:focus {
+    outline: none !important;
+}
+a {
+    text-decoration: none;
+    color: #393a3d;
+}
+a:hover {
+    color: #393a3d;
+}
+.WrapperCarousel{
+    background-color:rgba(0,0,0,0.8);
+}
+.customContainer{
+    width:90%;
+    margin:0 auto;
+}
+@media(max-width : 600px){
+    .customContainer{
+        width:100%;
+    }
+}
+.back-link{
+    text-decoration: none !important;
+    color: #393a3d;
+    border-bottom: 1.5px solid #2c2c2c;
+    font-weight: bold;
+    font-family: Biryani;
+}
+.oil-gas-section .title{
+    color: #000;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: Lora;
+}
+.oil-gas-section .para{
+    color: #000;
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-family: Biryani;
+}
+.head-small-uLine{
+    border-bottom:2px solid #2b2a2a;
+    color:#1b1a1a;
+}
+.fa-play-circle-o{
+    transform:translateY(5px);
+}
+.fa-play-circle-o::before{
+    font-size:30px;
+    color: #1b1a1a;
+    padding-left:10px
+}
+
+.navbar li .fa-shopping-cart {
+    font-size: 18px;
+}
+.navbar li a {
+    font-size: 13px;
+}
+.navbar-toggler{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #d1d1d1; */
+    background-color: #f4f4f5;
+    border: none;
+    outline: none;
+}
+.navbar-toggler:focus{
+    border: none !important;
+    outline: none;
+}
+.nav-icons {
+    position: absolute;
+    right: 6rem;
+    top: 20px;
+}
+.nav-link {
+    color: #000000;
+    font-family: Ubuntu;
+    font-size: 13px;
+}
+.nav-icons i {
+    font-size: 20px;
+    color: #706e6e;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.nav-icons i:hover {
+    color: rgb(65, 62, 62);
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.fa-angle-down {
+    position: absolute;
+}
+.fa-angle-down::before {
+    font-size: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    border: none !important;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu a{
+    font-family: Lora;
+    font-weight: 600;
+}
+/* Oil gas section styling */
+
+.oil-gas-section
+{
+    background-color: #F7F8FC; 
+    padding-bottom: 80px;
+}
+.overlaped-row{
+    padding: 0 2.3rem;
+    transform: translateY(-80px);
+}
+.overlaped-row img{
+    
+    object-fit: cover;
+}
+.thumb-img{
+    object-fit: cover;
+}
+.small-boxes{
+    padding: 0 5rem;
+}
+.small-boxes-title{
+    color: #393A3D;
+    font-size: 22px;
+    font-family: Lora;
+    font-weight: bold;
+}
+.small-boxes-para{
+    color: #333333;
+    font-size: 14px;
+    font-family: Biryani;
+}
+.product-link{
+    
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text p{
+    margin-bottom: 50px;
+}
+.r-2{
+    margin-bottom: 7rem;
+}
+.row .social-links{
+    margin-left:10rem;
+}
+.row ul li {
+     display: inline;
+     margin: 5px;
+}
+
+/* image */
+
+.text-box{
+    position: relative;
+    transform: translateY(-50px);
+}
+/* links */
+.oil-gas-links a{
+    color:#666666;
+     border-bottom: #666666;
+    }
+    .oil-gas-links{
+        margin-bottom: 8rem;
+    }
+.product-link{
+    
+        text-decoration: underline;
+        line-height: 2em;
+    }
+
+    
+
+.read-more {
+    color: #962206;
+    font-family: Lora;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    color: #962206;
+}
+/* 2nd psd css */
+.row-2{
+    margin-top: 5rem;
+}
+
+
+.chairman-message {
+    margin-top: 3rem;
+    opacity: 0.9;
+}
+
+.chairman-message .team-img-wrapper {
+    background: #ffffff;
+    padding: 2rem;
+}
+.chiarman {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #962206;
+    color: #fff;
+}
+.chiarman .title {
+    color: #ffffff !important;
+    font-family: Lora;
+    font-weight: bold;
+    font-size: 32px;
+}
+.chiarman .para {
+    color: #ffffff;
+    font-family: Ubuntu;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.chairman-message .team-title {
+    color: #FFF !important;
+    font-family: Lora;
+    font-weight: bold;
+    font-size: 32px;
+}
+.chairman-message .team-para {
+    color: #fff;
+    font-family: Ubuntu;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.chairman-avatar {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.chairman-message .title {
+    color: blue;
+    font-weight: bold;
+}
+
+
+.chairman-message button {
+    border: 1.5px solid #fff;
+    color: #fff;
+    background: transparent;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.chairman-message button a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.chairman-message button:hover {
+    transition: 0.5s linear;
+    color: #962206;
+    background: #fff;
+    border-radius: 0;
+}
+#footer {
+    background-color: #27272c;
+    color: #fff;
+    padding: 0 8rem 0 8rem;
+}
+#footer .footer-title {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Lora;
+}
+.footer-para {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: Ubuntu;
+}
+.form-control {
+    width: 80%;
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 1.2px solid #706e6e;
+}
+.form-control:focus {
+    background-color: transparent !important;
+    outline: none;
+    box-shadow: none;
+}
+#footer label {
+    margin-bottom: 0;
+    margin-top: 1rem;
+    color: rgb(167, 164, 164);
+}
+.sub-footer {
+    /* width: 90%;
+    margin: 0 auto; */
+}
+.sub-footer-head-tag {
+    font-size: 15px;
+}
+.sub-footer {
+    background-color: #1e1e21;
+    padding: 3rem 3rem 0 3rem;
+    border-radius: 3px;
+}
+#footer .send-message {
+    border: 1.2px solid #ffff;
+    border-radius: 0;
+    background-color: transparent;
+    color: #ffff;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.sub-footer-links {
+    display: block;
+    color: rgb(180, 178, 178);
+    padding: 4px 0;
+}
+.sub-footer-links:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#sub-footer-link {
+    display: inline;
+}
+.copyright {
+    font-size: 15px;
+}
+
+
+
+.chatIconWrapper {
+    position: fixed;
+    bottom: 30px;
+    z-index: 999999;
+    right: 60px;
+    width: 45px;
+    height: 45px;
+    display: flex !important;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.chatIconWrapper:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 8px 0px #585252;
+}
+.chatIcon {
+    /* margin-right: 20px; */
+}
+.chatIcon:hover {
+    cursor: pointer;
+}
+@media(max-width: 1160px){
+    .small-boxes{
+        padding: 0 2rem !important;
+    }
+}
+@media (max-width: 1260px) {
+    .sub-logoes {
+        display: none !important;
+    }
+}
+@media(max-width: 760px){
+    
+    .nav-icons{
+        display: inline !important;
+    }
+    .head-icons{
+        display: none !important;
+    }
+    .remove-on-mobile {
+        display: none !important;
+    }
+    .show-on-mobile {
+        display: block !important;
+    }
+    #mobile-disable-footer {
+        display: none !important;
+        padding-left: 30px;
+    }
+    .small-boxes{
+        padding: 0 !important;
+    }
+    .overlaped-row{
+        padding: 0 !important;
+    }
+    
+.chairman-message {
+    padding: 0 !important;
+}
+    #footer {
+        background-color: #1b1a1a !important;
+        color: #fff !important;
+        padding: 0 !important;
+    }
+    .sub-footer {
+        margin-top: 0 !important;
+        background-color: #1b1a1a !important;
+        padding: 0rem 2rem 0 2rem !important;
+    }
+    .endFooter {
+        text-align: center !important;
+    }
+
+    .chatIconWrapper{
+        right: 20px !important;
+        bottom: 20px !important;
+    }
+}
